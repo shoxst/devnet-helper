@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "DevNet Helper",
+    "version": "1.0",
+    "description": "Copies to clickboard when clicking DevNet ID",
+    "content_scripts": [
+        {
+            "matches": [
+                "file:///*/src/devnet-helper/test/target.html"
+            ],
+            "js": ["content.js"]
+        }
+    ]
+}
