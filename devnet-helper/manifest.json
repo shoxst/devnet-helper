@@ -6,7 +6,7 @@
     "content_scripts": [
         {
             "matches": [
-                "file:///*/src/devnet-helper/test/target.html"
+                "file:///*/devnet-helper/test/target.html"
             ],
             "js": ["content.js"]
         }
